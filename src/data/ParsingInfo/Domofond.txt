@@ -1,0 +1,15 @@
+﻿Link
+https://www.domofond.ru/prodazha-trehkomnatnuh-kvartir-moskovskaya_oblast-r81
+1
+
+Price
+|class="e-tile-price m-blue-link">(.*?)</h2>|
+1
+
+Rooms
+|class="e-tile-type m-max-width text-overflow"><strong>(.*?)-комнатная|
+0
+
+Adress
+|class="m-blue-link text-overflow m-max-width">(.*?)</span>|
+1

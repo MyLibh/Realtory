@@ -8,6 +8,9 @@
     </RootNamespace>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <AssemblyName>Realtory</AssemblyName>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>7.1</RuntimeVersion>
+    <IncludePath>..\src</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -16,7 +19,16 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="index.php" />
-    <Compile Include="SiteParseInfo.php" />
+    <Folder Include="src\" />
+    <Folder Include="src\data\" />
+    <Folder Include="src\data\ParsingInfo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Parser.php" />
+    <Compile Include="src\index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\data\ParsingInfo\Cian.txt" />
+    <Content Include="src\data\ParsingInfo\Domofond.txt" />
   </ItemGroup>
 </Project>

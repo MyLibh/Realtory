@@ -1,0 +1,33 @@
+﻿
+Link
+https://www.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&region=1&room1=1&room2=1
+
+Area_total
+|<div class="header--1WFWC">(.*?)</div>|
+
+Area_kitchen
+|<div class="term--2RMqZ">(.*?)</div>|
+
+Area_living 
+|<div class="term--2RMqZ">(.*?)</div><div class="term--2RMqZ">(.*?)</div>|
+2
+
+Price
+|price--oOrTM">(.*?)</div>|
+
+Floor
+|<div class="header--1ZTfS">(.*?)</div>|
+
+Type
+|<div class="header--NemOm">(.*?)</div><div class="term--1ntCP">(.*?)</div>|
+2
+
+Rooms
+|<div class="header--NemOm">(.*?)</div>|
+
+Underground
+|class="underground-header(.*?)target="_blank">(.*?)</a>|
+2
+
+Underground_distance
+|<div class="underground-distance--1NsmB">(.*?)</div>|
